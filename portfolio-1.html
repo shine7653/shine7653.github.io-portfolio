@@ -2,73 +2,144 @@
 <html>
 
 <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>SinaeKim</title>
-        <link rel="stylesheet" text="text/css" href="assets/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/043a87e592.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" type="image/jpg" href="./assets/01images/name.jpg"/>
+
+  <!-- <link rel="stylesheet" type="text/css" href="style.css" /> -->
+
+  <title>Sinae</title>
+  <style>
+    .navbar {
+      padding: 0px 20px 0px 20px;
+    }
+/*     .img-responsive {
+      position: absolute;
+      right: 0;
+    } */
+  </style>
 </head>
-
+<!-- -------------------------------------------------------------------------------- -->
 <body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
 
-<div class="navibar">
-    <div class="row1">
-        <div class="name">
-            Sinae Kim
-        </div>
-        <div class="nav">
-            <ul>
-                <li><a href="index.html">About</a></li>
-                <li id="index"><a href="portfolio.html" /*target="_blank"*/>Portfolio</a></li>
-                <li><a href="contact.html" >Contact</a></li>
-            </ul>
-        </div>
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+      <ul class="navbar-nav mr-auto">
+       <!--  <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/shine7653">GitHub</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/feed/">Linkedin</a>
+        </li>
+      </ul>
     </div>
-</div>
 
-<div class="row2">
-    <div class="row2-1">    
-        <div class="aboutme">
-            Portfolio
-        </div>
-
-        <hr>
-   
-        <div class="portfolio-box"> 
-        
-            <div class="box">
-                <img id="photo" src="assets/photos/hangman.png" alt="001">
-                <div id="title">Hangman</div>
-            </div>
-
-            <div class="box">
-                <img id="photo" src="assets/photos/RPG.jpg" alt="002">
-                <div id="title">RPG Game</div>
-            </div>
-
-            <div class="box">
-                <img id="photo" src="assets/photos/trivia.jpg" alt="003">
-                <div id="title">Trivia Game</div>
-            </div>
-
-            <div class="box">
-                <img id="photo" src="assets/photos/rutgers.jpg" alt="004">
-                <div id="title">Rutgers Info Widget</div>
-            </div>
-
-            <div class="box">
-                <img id="photo" src="assets/photos/rps.jpg" alt="005">
-                <div id="title">Rock Paper Scissors</div>
-            </div>
-
-        </div>
-
+    <div class="mx-auto order-0">
+      <a class="navbar-brand mx-auto" href="index.html"><img id="name" src="./assets/01images/name.jpg"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     </div>
-</div>
+
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio-1.html">Portfolio-1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio-2.html">Portfolio-2</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./assets/SinaeKimResume201911.pdf">Resume</a>
+        </li>
+<!--         <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li> -->
+      </ul>
+    </div>
+
+  </nav>
+<!-- -------------------------------------------------------------------------------- -->
+
+  <br> 
+
+  <div class=container>
+    <div class="row">
+      <div class="card-deck">
+
+        <div class="card">
+          <img src="./assets/03metalArt/final-02.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./assets/04pavillion/pavillion.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./assets/05corbusierStudy/corbusier01.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+      </div>      
+    </div>
+  </div>
+
+  <br>
+  <br>
+<!-- -------------------------------------------------------------------------------- -->
+  <!-- Footer -->
+  <footer class="page-footer col-md-12 navbar-dark bg-dark font-small white">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center text-white py-3">© 2019 Copyright :
+      <a href="https://mdbootstrap.com/education/bootstrap/">Sinae.com</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+
+  <!-- Footer -->
+  <!-- Compiled and minified JavaScript -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>     -->
+
+  <script src="script.js"></script>
 
 
 </body>
-
-<div class="footer">
-        <p id="copy">Copyright @</p>
-</div>
 
 </html>
