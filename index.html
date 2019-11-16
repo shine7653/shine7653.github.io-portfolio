@@ -17,8 +17,20 @@
 
   <title>Sinae</title>
   <style>
+    body {
+      background-image: url("./assets/01images/background.png");
+    }
     .navbar {
       padding: 0px 20px 0px 20px;
+    }
+    .nav-item {
+      padding: 0px 20px 0px 10px;
+    }
+    #navbarNav {
+      padding: 0px 100px 0px 0px;
+    }
+    .navbar-brand {
+      padding: 10px 0px 10px 130px;
     }
 /*     .img-responsive {
       position: absolute;
@@ -28,50 +40,33 @@
 </head>
 <!-- -------------------------------------------------------------------------------- -->
 <body>
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-md navbar-dark bg-white">
 
-    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-      <ul class="navbar-nav mr-auto">
-       <!--  <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
-        </li> -->
-        <li class="nav-item">
-          <a class="nav-link" href="https://github.com/shine7653">GitHub</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="https://www.linkedin.com/feed/">Linkedin</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./assets/SinaeResume201911.pdf">Resume</a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="mx-auto order-0">
-      <a class="navbar-brand mx-auto" href="index.html"><img id="name" src="./assets/01images/name.jpg"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+      <a class="navbar-brand" href="index.html"><img src="./assets/01images/Sinae.png"></a> 
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-    </div>
 
-    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio-2.html">Portfolio-2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio-1.html">Portfolio-1</a>
-        </li>
+      <div class="collapse navbar-collapse  w-100 order-3 dual-collapse2" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+              <a class="nav-link" a href="https://github.com/shine7653"><img src="./assets/01images/github.png"></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" a href="https://www.linkedin.com/feed/"><img src="./assets/01images/linkedin.png"></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" a href="./assets/SinaeResume201911.pdf"><img src="./assets/01images/resume.png"></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" a href="portfolio-1.html"><img src="./assets/01images/previousportfolio.png"></a>
+          </li>
+        </ul>
+      </div>
 
-        
-<!--         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li> -->
-      </ul>
-    </div>
+    </nav>
 
-  </nav>
-<!-- -------------------------------------------------------------------------------- -->
+
   <div class=container>
     <div class="row">
       <div class="col-sm-12 col-md-12">
@@ -173,66 +168,91 @@
                     I know nothing about this huge country and I am in this very entry level. 
                     But the fact that I am here, and learning a complete new subject make me to dream my future. I could call this is happy.
                 </p>
-
-
-<!--             <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a> -->
           </div>
         </div>
     </div>
-  </div>
+    <br>
+    <br>
 
-  <br>
-<!--  
-
-  <div class=container>
-    <div class="row">
-      <div class="card-deck">
-
-        <div class="card">
-          <img src="./assets/03metalArt/final-02.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="./assets/04pavillion/pavillion.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="./assets/05corbusierStudy/corbusier01.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-              content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-
-      </div>      
+    <div class=container>
+        <div class="card-deck text-center"> 
+    
+            <div class="card shadow p-1 mb-4 bg-white rounded">
+              <img src="./assets/11WorkDayScheduler/20191109_232623.png" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Work Day Scheduler</h5>
+                <ul class="list-unstyled mt-3 mb-2">
+                        <li>A daily planner for employees to time schedule time effectively, and improve productivity.</li>
+                        <br>
+                        <li>- jQuery </li>
+                        <li>- LocalStorage </li>
+                        <li>-  Bootstrap </li>
+                      </ul>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                <br>
+                
+                <a href="https://shine7653.github.io/Homework5" class="mt-auto btn btn-outline-primary" target="_blank">GitHub to see</a>
+                <a href="https://github.com/shine7653/Homework5" target="_blank">GitHub Repo</a>
+              </div>
+            </div>
+    
+            <div class="card shadow p-1 mb-4 bg-white rounded">
+              <img src="./assets/12WeatherDashboard/20191110_123145.png" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Weather Dashboard</h5>
+                <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p> -->
+                <ul class="list-unstyled mt-3 mb-2">
+                        <li>A weather app for travellers to check weather data to plan trip.</li>
+                        <br>
+                        <li>- jQuery </li>
+                        <li>- AJAX </li>
+                        <li> https://openweathermap.org</li>
+                        <li>-  LocalStorage </li>
+                        <li>-  Bootstrap </li>
+                      </ul>            
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                <br>
+                
+                <a href="https://shine7653.github.io/Homework6" class="mt-auto btn btn-outline-primary" target="_blank">GitHub to see</a>
+                <a href="https://github.com/shine7653/Homework6" target="_blank">GitHub Repo</a>
+              </div>
+            </div>
+    
+            <div class="card shadow p-1 mb-4 bg-white rounded">
+              <img src="./assets/13BeerMovieApp/20191110_123636.png" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Beer Movie App</h5>
+                <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p> -->
+                <ul class="list-unstyled mt-3 mb-2">
+                        <li>An app helps you find a beer and a movie matching with a food</li>
+                        <br>
+                        <li>- jQuery </li>
+                        <li>- AJAX </li>
+                        <li>https://api.punkapi.com</li>
+                        <li>https://www.omdbapi.com</li>
+                        <li>- Materialize </li>
+                      </ul>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                <br>
+                
+                <a href="https://shine7653.github.io/Homework7-BeerMovieApp" class="mt-auto btn btn-outline-primary" target="_blank">GitHub to see</a>
+                <a href="https://github.com/shine7653/Homework7-BeerMovieApp" target="_blank">GitHub Repo</a>
+              </div>
+            </div>
+    
+        </div> 
     </div>
+
   </div>
 
   <br>
-  <br> -->
+
 <!-- -------------------------------------------------------------------------------- -->
   <!-- Footer -->
-  <footer class="page-footer col-md-12 navbar-dark bg-dark font-small white">
+  <footer class="page-footer col-md-12 navbar-dark bg-light font-small white">
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center text-white py-3">© 2019 Copyright :
+    <div class="footer-copyright text-center text-dark py-3">© 2019 Copyright :
       <a href="mailto:shinekim7653@gmail.com">shinekim7653@gmail.com</a>
     </div>
     <!-- Copyright -->

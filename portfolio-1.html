@@ -17,8 +17,23 @@
 
   <title>Sinae</title>
   <style>
+    body {
+      background-image: url("./assets/01images/background.png");
+    }
     .navbar {
       padding: 0px 20px 0px 20px;
+    }
+    .nav-item {
+      padding: 0px 20px 0px 10px;
+    }
+    #navbarNav {
+      padding: 0px 100px 0px 0px;
+    }
+    .navbar-brand {
+      padding: 10px 0px 10px 130px;
+    }
+    .card-deck {
+      margin: 0px 0px 0px 0px ;
     }
 /*     .img-responsive {
       position: absolute;
@@ -28,50 +43,31 @@
 </head>
 <!-- -------------------------------------------------------------------------------- -->
 <body>
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-md navbar-dark bg-white">
 
-    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-      <ul class="navbar-nav mr-auto">
-       <!--  <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
-        </li> -->
-        <li class="nav-item">
-            <a class="nav-link" href="https://github.com/shine7653">GitHub</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="https://www.linkedin.com/feed/">Linkedin</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./assets/SinaeResume201911.pdf">Resume</a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="mx-auto order-0">
-      <a class="navbar-brand mx-auto" href="index.html"><img id="name" src="./assets/01images/name.jpg"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+      <a class="navbar-brand" href="index.html"><img src="./assets/01images/Sinae.png"></a> 
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-    </div>
 
-    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-            <a class="nav-link" href="portfolio-2.html">Portfolio-2</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="portfolio-1.html">Portfolio-1</a>
-        </li>
+      <div class="collapse navbar-collapse  w-100 order-3 dual-collapse2" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+              <a class="nav-link" a href="https://github.com/shine7653"><img src="./assets/01images/github.png"></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" a href="https://www.linkedin.com/feed/"><img src="./assets/01images/linkedin.png"></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" a href="./assets/SinaeResume201911.pdf"><img src="./assets/01images/resume.png"></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" a href="portfolio-1.html"><img src="./assets/01images/previousportfolio.png"></a>
+          </li>
+        </ul>
+      </div>
 
-        
-<!--         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li> -->
-      </ul>
-    </div>
-
-  </nav>
-<!-- -------------------------------------------------------------------------------- -->
+    </nav>
 
   <br> 
 
@@ -119,12 +115,12 @@
   <br>
 <!-- -------------------------------------------------------------------------------- -->
   <!-- Footer -->
-  <footer class="page-footer col-md-12 navbar-dark bg-dark font-small white">
+  <footer class="page-footer col-md-12 navbar-dark bg-light font-small white">
 
-    <!-- Copyright -->
-    <div class="footer-copyright text-center text-white py-3">© 2019 Copyright :
-            <a href="mailto:shinekim7653@gmail.com">shinekim7653@gmail.com</a>
-    </div>
+      <!-- Copyright -->
+      <div class="footer-copyright text-center text-dark py-3">© 2019 Copyright :
+        <a href="mailto:shinekim7653@gmail.com">shinekim7653@gmail.com</a>
+      </div>
     <!-- Copyright -->
 
   </footer>
